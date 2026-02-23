@@ -1,5 +1,5 @@
-package Easy;
-class Solution {
+import java.util.*;
+class count_Binary_Substrings_696 {
     public int countBinarySubstrings(String s) {
         int prev = 0;
         int curr = 1;
