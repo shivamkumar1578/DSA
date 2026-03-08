@@ -1,0 +1,11 @@
+public class Find_Unique_Binary_String_1980 {
+    public String findDifferentBinaryString(String[] nums) {
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < nums.length; i++) {
+            sb.append(nums[i].charAt(i) == '0' ? '1' : '0');
+        }
+
+        return sb.toString();
+    }
+}
