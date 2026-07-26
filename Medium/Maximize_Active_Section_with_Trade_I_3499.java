@@ -1,7 +1,5 @@
 package Medium;
-
-import java.util.ArrayList;
-
+import java.util.*;
 public class Maximize_Active_Section_with_Trade_I_3499 {
     public int maxActiveSectionsAfterTrade(String s) {
         int ones = 0;
@@ -28,4 +26,6 @@ public class Maximize_Active_Section_with_Trade_I_3499 {
         }
         return ones + best;
     }
+}
+
 }
